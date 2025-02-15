@@ -2,7 +2,8 @@
 Graph visualizer to view genes coamplified on ecDNA focal amplifications. 
 
 ## Neo4j Download Instructions
-For macOS users, enter the following commands to set up Neo4j Community Edition:
+
+### macOS
 
 Download and unzip the tar file:<br>
 ```curl -O -C - http://dist.neo4j.org/neo4j-community-5.12.0-unix.tar.gz```<br>
@@ -18,4 +19,8 @@ The environment is now set up. Ensure that neo4j is running before querying the 
 
 
 > Alternatively, go to https://neo4j.com/deployment-center/, then download the rpm file for the latest Community Edition under the section titled 'Graph Database Self-Managed'. Further instructions are available upon clicking Download. Note that this method has not been tested by our team.
+
+### Ubuntu (or Windows via WSL/WSL2)
+
+Please follow this documentation to set up the latest version of Neo4j Community Edition: https://debian.neo4j.com/
 
